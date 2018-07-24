@@ -251,7 +251,7 @@ $(document).ready(function () {
         allOpponentsDefeated = false;
         $("#hero-img").html("<img src=" + hero.src + " style='width: 64px; height: 64px;'>");
         $("#Hero-Health").text("Health: " + hero.health);
-        $("#Hero-Attack").text("Attack: " + hero.counterAttack);
+        $("#Hero-Attack").text("Attack: " + hero.Attack);
         $("#wins").text("Wins: " + wins);
         $("#losses").text("Losses: " + losses);
     }
